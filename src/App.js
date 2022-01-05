@@ -1,7 +1,7 @@
 import './App.css';
 import Button from './Button';
 
-const stringVar = "It's a string";
+const stringVar = "I'm a button component which uses a string from another component";
 
 
 function App() {
