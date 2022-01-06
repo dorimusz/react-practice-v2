@@ -1,7 +1,9 @@
 import './App.css';
-import Button from './Button';
+// import Button from './Button';
+import ButtonListFor from './ButtonListFor'
+import ButtonListMap from './ButtonListMap'
 
-const stringVar = "I'm a button component which uses a string from another component";
+const buttonText = "I'm a button component which uses a string from another component";
 
 
 function App() {
@@ -9,7 +11,10 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <Button text={stringVar} />
+        <div className='hahaha'></div>
+        {/* <Button text={buttonText} /> */}
+        {/* <ButtonListFor text={buttonText} /> */}
+        <ButtonListMap text={buttonText} />
 
       </header>
     </div>
