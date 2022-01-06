@@ -22,6 +22,7 @@ class User {
         return `${this.firstName} ${this.lastName}`
     }
 }
+//a class nem egy függvény, nem tud returolnülni, szüksége van egy render() metódusra vagy egy functionre, mint itt fent a fullName
 
 const profile4 = () => {
     const newUser = new User("Ágoston", "Csilla")
