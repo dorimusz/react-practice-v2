@@ -7,6 +7,10 @@ import Profile2 from './Profile2'
 import Profile3 from './Profile3'
 import Profile4 from './Profile4'
 
+import Games from './components/games'
+import CatProfile from './components/CatProfile'
+import CatFight from './components/CatFight';
+
 
 const buttonText = "I'm a button component which uses a string from another component";
 
@@ -25,6 +29,11 @@ function App() {
         <Profile2 />
         <Profile3 />
         <Profile4 />
+
+        <h3>Deconstructure practice </h3>
+        <Games />
+        <CatProfile />
+        <CatFight />
 
       </header>
     </div>
