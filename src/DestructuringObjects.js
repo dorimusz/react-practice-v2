@@ -12,6 +12,7 @@ const profile2 = () => {
     const { lastName, firstName } = user;
 
     return <div>
+        <h1>Destructuring objects:</h1>
         <h2>{firstName}</h2>
         <h3>{lastName}</h3>
     </div>
